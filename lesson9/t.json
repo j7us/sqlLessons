@@ -1,0 +1,92 @@
+{
+  "total_recorded_attacks": 183,
+  "unique_attackers": 42,
+  "overall_defense_success_rate": 76.50,
+  "security_analysis": {
+    "threat_assessment": {
+      "current_threat_level": "Moderate",
+      "active_threats": [
+        {
+          "creature_type": "Goblin",
+          "threat_level": 3,
+          "last_sighting_date": "0205-08-12",
+          "territory_proximity": 1.2,
+          "estimated_numbers": 35,
+          "creature_ids": [124, 126, 128, 132, 136]
+        },
+        {
+          "creature_type": "Forgotten Beast",
+          "threat_level": 5,
+          "last_sighting_date": "0205-07-28",
+          "territory_proximity": 3.5,
+          "estimated_numbers": 1,
+          "creature_ids": [158]
+        }
+      ]
+    },
+    "vulnerability_analysis": [
+      {
+        "zone_id": 15,
+        "zone_name": "Eastern Gate",
+        "vulnerability_score": 0.68,
+        "historical_breaches": 8,
+        "fortification_level": 2,
+        "military_response_time": 48,
+        "defense_coverage": {
+          "structure_ids": [182, 183, 184],
+          "squad_ids": [401, 405]
+        }
+      }
+    ],
+    "defense_effectiveness": [
+      {
+        "defense_type": "Drawbridge",
+        "effectiveness_rate": 95.12,
+        "avg_enemy_casualties": 12.4,
+        "structure_ids": [185, 186, 187, 188]
+      },
+      {
+        "defense_type": "Trap Corridor",
+        "effectiveness_rate": 88.75,
+        "avg_enemy_casualties": 8.2,
+        "structure_ids": [201, 202, 203, 204]
+      }
+    ],
+    "military_readiness_assessment": [
+      {
+        "squad_id": 403,
+        "squad_name": "Crossbow Legends",
+        "readiness_score": 0.92,
+        "active_members": 7,
+        "avg_combat_skill": 8.6,
+        "combat_effectiveness": 0.85,
+        "response_coverage": [
+          {
+            "zone_id": 12,
+            "response_time": 0
+          },
+          {
+            "zone_id": 15,
+            "response_time": 36
+          }
+        ]
+      }
+    ],
+    "security_evolution": [
+      {
+        "year": 203,
+        "defense_success_rate": 68.42,
+        "total_attacks": 38,
+        "casualties": 42,
+        "year_over_year_improvement": 3.20
+      },
+      {
+        "year": 204,
+        "defense_success_rate": 72.50,
+        "total_attacks": 40,
+        "casualties": 36,
+        "year_over_year_improvement": 4.08
+      }
+    ]
+  }
+}
